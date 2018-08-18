@@ -2,10 +2,10 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-// Tells node that we are creating an "express" server
+// CREATE EXPRESS SERVER
 const app = express();
 
-// Sets an initial port.
+// PORT
 const PORT = process.env.PORT || 8080;
 
 // Sets up the Express app to handle data parsing
